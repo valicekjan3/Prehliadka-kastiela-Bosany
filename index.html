@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Virtuálna prehliadka kaštieľa Bošany s bohatou históriou a multimediálnym obsahom">
+  <meta name="theme-color" content="#8b4513">
+  <title>Kaštieľ Bošany - Virtuálna prehliadka</title>
+  
+  <!-- PWA manifest -->
+  <link rel="manifest" href="/manifest.json">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/icon-192x192.png">
+  
+  <!-- Fonty -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome ikony -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Pannellum pre virtuálnu prehliadku -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+  <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+  
+  <!-- Vlastné štýly -->
+  <link rel="stylesheet" href="/css/styles.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="Logo Kaštieľ Bošany">
+        <h1 data-i18n="header.title">Kaštieľ Bošany</h1>
+      </div>
+      
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">Domov</a></li>
+          <li><a href="#about" data-i18n="nav.about">O kaštieli</a></li>
+          <li><a href="#history" data-i18n="nav.history">História</a></li>
+          <li><a href="#tour" data-i18n="nav.tour">Virtuálna prehliadka</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Galéria</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+      </nav>
+      
+      <div class="language-selector">
+        <!-- Jazykový prepínač bude vygenerovaný pomocou JavaScriptu -->
+      </div>
+    </div>
+  </header>
+  
+  <!-- Hero sekcia -->
+  <section id="home" class="hero" style="background-image: url('/img/Snimka_1.PNG');">
+    <div class="hero-content">
+      <h1 class="fade-in" data-i18n="hero.title">Kaštieľ Bošany</h1>
+      <p class="fade-in fade-in-delay-1" data-i18n="hero.subtitle">Objavte krásu a históriu renesančného kaštieľa</p>
+      <div class="fade-in fade-in-delay-2">
+        <a href="#tour" class="btn" data-i18n="hero.tourButton">Virtuálna prehliadka</a>
+        <a href="#gallery" class="btn btn-outline" data-i18n="hero.galleryButton">Galéria</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- O kaštieli -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about.title">O kaštieli</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p data-i18n="about.paragraph1">Kaštieľ Bošány je renesančný kaštieľ nachádzajúci sa v centre obce Bošany, v podhorí Tribča na ľavom brehu rieky Nitra, približne 6 km severovýchodne od Topoľčian.</p>
+          <p data-i18n="about.paragraph2">Kaštieľ bol postavený na základoch hrádku v 16. storočí rodom Bossányiovcov, ktorý sa odčlenil od šľachticov Diviakovcov a natrvalo sa usadil v Bošanoch. Počas svojej histórie prešiel kaštieľ mnohými prestavbami a zmenami majiteľov.</p>
+          <p data-i18n="about.paragraph3">V roku 2007 sa novým majiteľom kaštieľa stal miestny podnikateľ Ján Miškeje, ktorý začal s jeho komplexnou rekonštrukciou. Vďaka jeho úsiliu sa podarilo zachrániť túto vzácnu historickú pamiatku pre budúce generácie.</p>
+        </div>
+        <div class="about-image">
+          <img src="/img/Snimka_2.PNG" alt="Kaštieľ Bošany" data-i18n-alt="about.imageAlt">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- História -->
+  <section id="history" class="section" style="background-color: var(--background-color);">
+    <div class="container">
+      <h2 class="section-title" data-i18n="history.title">História kaštieľa</h2>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item1.title">15. storočie</h3>
+            <p data-i18n="history.timeline.item1.text">Na mieste dnešného kaštieľa stála pôvodne väčšia zrubová stavba, ktorá zanikla kvôli požiaru. Pravdepodobne išlo o kúriu.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item2.title">1550</h3>
+            <p data-i18n="history.timeline.item2.text">Kvôli hrozbe tureckých vpádov šľachtici prestavali veľovú kúriu na veľký ranorenesančný opevnený kaštieľ.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item3.title">16. - 17. storočie</h3>
+            <p data-i18n="history.timeline.item3.text">Architektonický vývoj kaštieľa vyvrcholil renesančnými úpravami, keď fasáda získala aj typický červeno-biely ornament s prírodným vzorom.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item4.title">18. storočie</h3>
+            <p data-i18n="history.timeline.item4.text">Kaštieľ zažil návštevu Márie Terézie, kráľovnej z rodu Habsburgovcov. Bolo to jedno z najvýznamnejších období kaštieľa.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item5.title">19. storočie</h3>
+            <p data-i18n="history.timeline.item5.text">Majiteľom kaštieľa sa stala garbiarska firma Adolfa Schmitta. Kaštieľ začala postupne prerábať a priestory využívala najmä na skladovanie surovej kože a rybieho sadla.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item6.title">Začiatok 20. storočia</h3>
+            <p data-i18n="history.timeline.item6.text">Kaštieľ vyhorel. Objekt si prenajal podnikateľ Ján Salzberger, ktorý sa ho snažil obnoviť.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item7.title">Po 2. svetovej vojne</h3>
+            <p data-i18n="history.timeline.item7.text">Po znárodnení bol kaštieľ využívaný ako škola, hudobná ľudová škola alebo sklady. Komunisti chceli kaštieľ využívať ako priestory garbiarskeho múzea.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item8.title">1988 - 1990</h3>
+            <p data-i18n="history.timeline.item8.text">Začala sa rekonštrukcia, ktorá sa po dvoch rokoch definitívne skončila a objekt bol znovu opustený.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item9.title">2007</h3>
+            <p data-i18n="history.timeline.item9.text">Kaštieľ odkúpil miestny podnikateľ Ján Miškeje, ktorý začal s jeho komplexnou rekonštrukciou.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3 data-i18n="history.timeline.item10.title">2011 - 2013</h3>
+            <p data-i18n="history.timeline.item10.text">Prebehla komplexná rekonštrukcia kaštieľa, ktorá mu vrátila jeho historickú hodnotu a krásu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Virtuálna prehliadka -->
+  <section id="tour" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="tour.title">Virtuálna prehliadka</h2>
+      <p class="section-description" data-i18n="tour.description">Prejdite sa po kaštieli Bošany a objavte jeho krásu a históriu prostredníctvom našej interaktívnej virtuálnej prehliadky.</p>
+      
+      <div class="virtual-tour">
+        <!-- Virtuálna prehliadka bude vygenerovaná pomocou JavaScriptu -->
+        <div class="tour-loading">
+          <div class="spinner"></div>
+          <p data-i18n="tour.loading">Načítavam virtuálnu prehliadku...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Galéria -->
+  <section id="gallery" class="section" style="background-color: var(--background-color);">
+    <div class="container">
+      <h2 class="section-title" data-i18n="gallery.title">Galéria</h2>
+      <p class="section-description" data-i18n="gallery.description">Prezrite si fotografie a videá zachytávajúce krásu kaštieľa Bošany pred a po rekonštrukcii.</p>
+      
+      <div class="gallery-filters">
+        <button class="gallery-filter active" data-filter="all" data-i18n="gallery.filters.all">Všetko</button>
+        <button class="gallery-filter" data-filter="exterior" data-i18n="gallery.filters.exterior">Exteriér</button>
+        <button class="gallery-filter" data-filter="interior" data-i18n="gallery.filters.interior">Interiér</button>
+        <button class="gallery-filter" data-filter="reconstruction" data-i18n="gallery.filters.reconstruction">Rekonštrukcia</button>
+        <button class="gallery-filter" data-filter="historical" data-i18n="gallery.filters.historical">Historické</button>
+      </div>
+      
+      <div class="gallery">
+        <!-- Galéria bude vygenerovaná pomocou JavaScriptu -->
+        <div class="gallery-item exterior">
+          <img src="/img/Snimka_1.PNG" alt="Exteriér kaštieľa" data-i18n-alt="gallery.items.exterior1">
+          <div class="gallery-caption" data-i18n="gallery.captions.exterior1">Pohľad na kaštieľ z hlavnej cesty</div>
+        </div>
+        <div class="gallery-item exterior">
+          <img src="/img/Snimka_2.PNG" alt="Exteriér kaštieľa" data-i18n-alt="gallery.items.exterior2">
+          <div class="gallery-caption" data-i18n="gallery.captions.exterior2">Pohľad na kaštieľ z parku</div>
+        </div>
+        <div class="gallery-item interior">
+          <img src="/img/Snimka_3.PNG" alt="Interiér kaštieľa" data-i18n-alt="gallery.items.interior1">
+          <div class="gallery-caption" data-i18n="gallery.captions.interior1">Hlavná sála kaštieľa</div>
+        </div>
+        <div class="gallery-item interior">
+          <video data-src="/video/Snimka 1.mp4" poster="/img/Snimka_1.PNG" muted loop></video>
+          <div class="gallery-caption" data-i18n="gallery.captions.interior2">Video z interiéru kaštieľa</div>
+        </div>
+        <div class="gallery-item reconstruction">
+          <img src="/img/stav pred rekonstrukciou 1.PNG" alt="Kaštieľ pred rekonštrukciou" data-i18n-alt="gallery.items.reconstruction1">
+          <div class="gallery-caption" data-i18n="gallery.captions.reconstruction1">Stav pred rekonštrukciou</div>
+        </div>
+        <div class="gallery-item reconstruction">
+          <video data-src="/video/stav pred rekonstrikciou 1.mp4" poster="/img/stav pred rekonstrukciou 1.PNG" muted loop></video>
+          <div class="gallery-caption" data-i18n="gallery.captions.reconstruction2">Video - stav pred rekonštrukciou</div>
+        </div>
+        <div class="gallery-item historical">
+          <img src="/img/Bosany - Stav pred rekonstrukciou.PNG" alt="Historický pohľad na kaštieľ" data-i18n-alt="gallery.items.historical1">
+          <div class="gallery-caption" data-i18n="gallery.captions.historical1">Historický pohľad na kaštieľ</div>
+        </div>
+        <div class="gallery-item historical">
+          <video data-src="/video/Bosany - Stav pred rekonstrukciou.mp4" poster="/img/Bosany - Stav pred rekonstrukciou.PNG" muted loop></video>
+          <div class="gallery-caption" data-i18n="gallery.captions.historical2">Video - historický pohľad na kaštieľ</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Lightbox -->
+    <div class="lightbox">
+      <div class="lightbox-content"></div>
+      <div class="lightbox-caption"></div>
+      <div class="lightbox-close">&times;</div>
+      <div class="lightbox-nav">
+        <button class="lightbox-prev" aria-label="Predchádzajúci">&lt;</button>
+        <button class="lightbox-next" aria-label="Nasledujúci">&gt;</button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Kontakt -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title" data-i18n="contact.title">Kontakt</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3 data-i18n="contact.infoTitle">Informácie</h3>
+          <p data-i18n="contact.address">Adresa: Kaštieľ Bošany, Bošany, Slovensko</p>
+          <p data-i18n="contact.email">Email: info@kastiel-bosany.sk</p>
+          <p data-i18n="contact.phone">Telefón: +421 XXX XXX XXX</p>
+          <p data-i18n="contact.hours">Otváracie hodiny: Po-Ne 10:00 - 18:00</p>
+          
+          <h3 data-i18n="contact.followUs">Sledujte nás</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.8710262006727!2d18.25683431564616!3d48.57953997926099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476b3ee5b5555555%3A0x5555555555555555!2zQm_FoWFueQ!5e0!3m2!1ssk!2ssk!4v1632735600000!5m2!1ssk!2ssk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 data-i18n="footer.aboutTitle">O kaštieli</h3>
+          <p data-i18n="footer.aboutText">Kaštieľ Bošany je renesančný kaštieľ s bohatou históriou, ktorý prešiel komplexnou rekonštrukciou a dnes slúži ako kultúrna pamiatka.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3 data-i18n="footer.linksTitle">Rýchle odkazy</h3>
+          <ul class="footer-links">
+            <li><a href="#home" data-i18n="nav.home">Domov</a></li>
+            <li><a href="#about" data-i18n="nav.about">O kaštieli</a></li>
+            <li><a href="#history" data-i18n="nav.history">História</a></li>
+            <li><a href="#tour" data-i18n="nav.tour">Virtuálna prehliadka</a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery">Galéria</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3 data-i18n="footer.newsletterTitle">Odoberajte novinky</h3>
+          <p data-i18n="footer.newsletterText">Prihláste sa na odber noviniek a buďte informovaní o aktuálnom dianí v kaštieli Bošany.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Váš email" data-i18n-placeholder="footer.newsletterPlaceholder" required>
+            <button type="submit" data-i18n="footer.newsletterButton">Prihlásiť</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p data-i18n="footer.copyright">&copy; 2025 Kaštieľ Bošany. Všetky práva vyhradené.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Skripty -->
+  <script src="/js/i18n.js"></script>
+  <script src="/js/gallery.js"></script>
+  <script src="/js/virtual-tour.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
