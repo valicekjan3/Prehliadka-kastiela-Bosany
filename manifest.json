@@ -1,0 +1,39 @@
+{
+  "name": "Kaštieľ Bošany - Virtuálna prehliadka",
+  "short_name": "Kaštieľ Bošany",
+  "description": "Virtuálna prehliadka kaštieľa Bošany s bohatou históriou a multimediálnym obsahom",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8b4513",
+  "icons": [
+    {
+      "src": "assets/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "any",
+  "lang": "sk",
+  "dir": "ltr",
+  "categories": ["travel", "education", "history"],
+  "screenshots": [
+    {
+      "src": "assets/screenshot1.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "assets/screenshot2.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg"
+    }
+  ]
+}
