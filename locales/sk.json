@@ -1,0 +1,188 @@
+{
+  "page": {
+    "title": "Kaštieľ Bošany - Virtuálna prehliadka",
+    "description": "Virtuálna prehliadka kaštieľa Bošany s bohatou históriou a multimediálnym obsahom"
+  },
+  "header": {
+    "title": "Kaštieľ Bošany"
+  },
+  "nav": {
+    "home": "Domov",
+    "about": "O kaštieli",
+    "history": "História",
+    "tour": "Virtuálna prehliadka",
+    "gallery": "Galéria",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Kaštieľ Bošany",
+    "subtitle": "Objavte krásu a históriu renesančného kaštieľa",
+    "tourButton": "Virtuálna prehliadka",
+    "galleryButton": "Galéria"
+  },
+  "about": {
+    "title": "O kaštieli",
+    "paragraph1": "Kaštieľ Bošány je renesančný kaštieľ nachádzajúci sa v centre obce Bošany, v podhorí Tribča na ľavom brehu rieky Nitra, približne 6 km severovýchodne od Topoľčian.",
+    "paragraph2": "Kaštieľ bol postavený na základoch hrádku v 16. storočí rodom Bossányiovcov, ktorý sa odčlenil od šľachticov Diviakovcov a natrvalo sa usadil v Bošanoch. Počas svojej histórie prešiel kaštieľ mnohými prestavbami a zmenami majiteľov.",
+    "paragraph3": "V roku 2007 sa novým majiteľom kaštieľa stal miestny podnikateľ Ján Miškeje, ktorý začal s jeho komplexnou rekonštrukciou. Vďaka jeho úsiliu sa podarilo zachrániť túto vzácnu historickú pamiatku pre budúce generácie.",
+    "imageAlt": "Kaštieľ Bošany"
+  },
+  "history": {
+    "title": "História kaštieľa",
+    "timeline": {
+      "item1": {
+        "title": "15. storočie",
+        "text": "Na mieste dnešného kaštieľa stála pôvodne väčšia zrubová stavba, ktorá zanikla kvôli požiaru. Pravdepodobne išlo o kúriu."
+      },
+      "item2": {
+        "title": "1550",
+        "text": "Kvôli hrozbe tureckých vpádov šľachtici prestavali veľovú kúriu na veľký ranorenesančný opevnený kaštieľ."
+      },
+      "item3": {
+        "title": "16. - 17. storočie",
+        "text": "Architektonický vývoj kaštieľa vyvrcholil renesančnými úpravami, keď fasáda získala aj typický červeno-biely ornament s prírodným vzorom."
+      },
+      "item4": {
+        "title": "18. storočie",
+        "text": "Kaštieľ zažil návštevu Márie Terézie, kráľovnej z rodu Habsburgovcov. Bolo to jedno z najvýznamnejších období kaštieľa."
+      },
+      "item5": {
+        "title": "19. storočie",
+        "text": "Majiteľom kaštieľa sa stala garbiarska firma Adolfa Schmitta. Kaštieľ začala postupne prerábať a priestory využívala najmä na skladovanie surovej kože a rybieho sadla."
+      },
+      "item6": {
+        "title": "Začiatok 20. storočia",
+        "text": "Kaštieľ vyhorel. Objekt si prenajal podnikateľ Ján Salzberger, ktorý sa ho snažil obnoviť."
+      },
+      "item7": {
+        "title": "Po 2. svetovej vojne",
+        "text": "Po znárodnení bol kaštieľ využívaný ako škola, hudobná ľudová škola alebo sklady. Komunisti chceli kaštieľ využívať ako priestory garbiarskeho múzea."
+      },
+      "item8": {
+        "title": "1988 - 1990",
+        "text": "Začala sa rekonštrukcia, ktorá sa po dvoch rokoch definitívne skončila a objekt bol znovu opustený."
+      },
+      "item9": {
+        "title": "2007",
+        "text": "Kaštieľ odkúpil miestny podnikateľ Ján Miškeje, ktorý začal s jeho komplexnou rekonštrukciou."
+      },
+      "item10": {
+        "title": "2011 - 2013",
+        "text": "Prebehla komplexná rekonštrukcia kaštieľa, ktorá mu vrátila jeho historickú hodnotu a krásu."
+      }
+    }
+  },
+  "tour": {
+    "title": "Virtuálna prehliadka",
+    "description": "Prejdite sa po kaštieli Bošany a objavte jeho krásu a históriu prostredníctvom našej interaktívnej virtuálnej prehliadky.",
+    "loading": "Načítavam virtuálnu prehliadku...",
+    "welcome": {
+      "title": "Vitajte v kaštieli Bošany",
+      "text": "Vyberte si bod záujmu na mape pre začatie virtuálnej prehliadky."
+    },
+    "locations": {
+      "entrance": {
+        "title": "Vstup do kaštieľa",
+        "text": "Hlavný vstup do kaštieľa je zdobený renesančným portálom. Pôvodné dvere boli vymenené počas rekonštrukcie, ale zachovali sa ich historické prvky."
+      },
+      "hall": {
+        "title": "Hlavná sála",
+        "text": "Hlavná sála kaštieľa slúžila na spoločenské udalosti a stretnutia šľachty. Strop je zdobený štukovými ornamentmi a v strede miestnosti sa nachádza veľký krištáľový luster."
+      },
+      "library": {
+        "title": "Knižnica",
+        "text": "Knižnica obsahuje vzácne historické knihy a dokumenty. Drevené police a stôl sú originálne kusy nábytku z 18. storočia."
+      },
+      "bedroom": {
+        "title": "Spálňa",
+        "text": "Spálňa je zariadená v štýle 18. storočia s veľkou posteľou s baldachýnom a originálnym nábytkom z obdobia baroka."
+      },
+      "garden": {
+        "title": "Záhrada",
+        "text": "Záhrada kaštieľa je navrhnutá v anglickom štýle s množstvom stromov, kríkov a kvetinových záhonov. V strede sa nachádza fontána z 19. storočia."
+      }
+    },
+    "navigation": {
+      "prev": "Predchádzajúca",
+      "next": "Nasledujúca"
+    }
+  },
+  "gallery": {
+    "title": "Galéria",
+    "description": "Prezrite si fotografie a videá zachytávajúce krásu kaštieľa Bošany pred a po rekonštrukcii.",
+    "filters": {
+      "all": "Všetko",
+      "exterior": "Exteriér",
+      "interior": "Interiér",
+      "reconstruction": "Rekonštrukcia",
+      "historical": "Historické"
+    },
+    "items": {
+      "exterior1": "Exteriér kaštieľa",
+      "exterior2": "Exteriér kaštieľa",
+      "interior1": "Interiér kaštieľa",
+      "interior2": "Interiér kaštieľa",
+      "reconstruction1": "Kaštieľ pred rekonštrukciou",
+      "reconstruction2": "Kaštieľ pred rekonštrukciou",
+      "historical1": "Historický pohľad na kaštieľ",
+      "historical2": "Historický pohľad na kaštieľ",
+      "exterior": "Exteriér kaštieľa",
+      "interior": "Interiér kaštieľa",
+      "reconstruction": "Kaštieľ pred rekonštrukciou",
+      "historical": "Historický pohľad na kaštieľ"
+    },
+    "captions": {
+      "exterior1": "Pohľad na kaštieľ z hlavnej cesty",
+      "exterior2": "Pohľad na kaštieľ z parku",
+      "interior1": "Hlavná sála kaštieľa",
+      "interior2": "Video z interiéru kaštieľa",
+      "reconstruction1": "Stav pred rekonštrukciou",
+      "reconstruction2": "Video - stav pred rekonštrukciou",
+      "historical1": "Historický pohľad na kaštieľ",
+      "historical2": "Video - historický pohľad na kaštieľ"
+    },
+    "navigation": {
+      "prev": "Predchádzajúci",
+      "next": "Nasledujúci"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "infoTitle": "Informácie",
+    "address": "Adresa: Kaštieľ Bošany, Bošany, Slovensko",
+    "email": "Email: info@kastiel-bosany.sk",
+    "phone": "Telefón: +421 XXX XXX XXX",
+    "hours": "Otváracie hodiny: Po-Ne 10:00 - 18:00",
+    "followUs": "Sledujte nás"
+  },
+  "footer": {
+    "aboutTitle": "O kaštieli",
+    "aboutText": "Kaštieľ Bošany je renesančný kaštieľ s bohatou históriou, ktorý prešiel komplexnou rekonštrukciou a dnes slúži ako kultúrna pamiatka.",
+    "linksTitle": "Rýchle odkazy",
+    "newsletterTitle": "Odoberajte novinky",
+    "newsletterText": "Prihláste sa na odber noviniek a buďte informovaní o aktuálnom dianí v kaštieli Bošany.",
+    "newsletterPlaceholder": "Váš email",
+    "newsletterButton": "Prihlásiť",
+    "copyright": "© 2025 Kaštieľ Bošany. Všetky práva vyhradené."
+  },
+  "gamification": {
+    "points": "Bodov",
+    "achievements": "Úspechy",
+    "quizTitle": "Kvíz o kaštieli",
+    "quizStart": "Začať kvíz",
+    "quizQuestion": "Otázka",
+    "quizNext": "Ďalej",
+    "quizSubmit": "Odoslať",
+    "quizResult": "Výsledok",
+    "quizCorrect": "Správne!",
+    "quizIncorrect": "Nesprávne!",
+    "quizTryAgain": "Skúsiť znova",
+    "quizScore": "Skóre"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "youtube": "YouTube"
+  }
+}

@@ -1,0 +1,19 @@
+# Browsers that we support
+
+# Mobile browsers
+last 2 Android versions
+last 2 iOS versions
+
+# Desktop browsers
+last 2 Chrome versions
+last 2 Firefox versions
+last 2 Safari versions
+last 2 Edge versions
+
+# Legacy browsers
+Firefox ESR
+not IE 11
+not dead
+
+# Market share
+> 0.5%

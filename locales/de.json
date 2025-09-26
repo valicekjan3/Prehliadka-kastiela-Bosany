@@ -1,0 +1,188 @@
+{
+  "page": {
+    "title": "Schloss Bošany - Virtuelle Tour",
+    "description": "Virtuelle Tour durch Schloss Bošany mit reicher Geschichte und multimedialem Inhalt"
+  },
+  "header": {
+    "title": "Schloss Bošany"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über das Schloss",
+    "history": "Geschichte",
+    "tour": "Virtuelle Tour",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Schloss Bošany",
+    "subtitle": "Entdecken Sie die Schönheit und Geschichte des Renaissance-Schlosses",
+    "tourButton": "Virtuelle Tour",
+    "galleryButton": "Galerie"
+  },
+  "about": {
+    "title": "Über das Schloss",
+    "paragraph1": "Schloss Bošany ist ein Renaissance-Schloss im Zentrum des Dorfes Bošany, am Fuße des Tribeč-Gebirges am linken Ufer des Flusses Nitra, etwa 6 km nordöstlich von Topoľčany.",
+    "paragraph2": "Das Schloss wurde im 16. Jahrhundert auf den Grundmauern einer kleinen Festung von der Familie Bossányi erbaut, die sich von den Diviak-Adligen trennte und sich dauerhaft in Bošany niederließ. Im Laufe seiner Geschichte durchlief das Schloss viele Umbauten und Eigentümerwechsel.",
+    "paragraph3": "Im Jahr 2007 wurde der lokale Unternehmer Ján Miškeje neuer Eigentümer des Schlosses und begann mit dessen umfassender Rekonstruktion. Dank seiner Bemühungen konnte dieses wertvolle historische Denkmal für zukünftige Generationen gerettet werden.",
+    "imageAlt": "Schloss Bošany"
+  },
+  "history": {
+    "title": "Geschichte des Schlosses",
+    "timeline": {
+      "item1": {
+        "title": "15. Jahrhundert",
+        "text": "An der Stelle des heutigen Schlosses stand ursprünglich ein größeres Blockhaus, das durch einen Brand zerstört wurde. Es handelte sich wahrscheinlich um ein Herrenhaus."
+      },
+      "item2": {
+        "title": "1550",
+        "text": "Aufgrund der Bedrohung durch türkische Invasionen bauten die Adligen das Turmherrenhaus zu einem großen frühneuzeitlichen befestigten Schloss um."
+      },
+      "item3": {
+        "title": "16. - 17. Jahrhundert",
+        "text": "Die architektonische Entwicklung des Schlosses gipfelte in Renaissance-Umbauten, wobei die Fassade auch ein typisches rot-weißes Ornament mit natürlichem Muster erhielt."
+      },
+      "item4": {
+        "title": "18. Jahrhundert",
+        "text": "Das Schloss erlebte einen Besuch von Maria Theresia, Königin der Habsburger-Dynastie. Es war eine der bedeutendsten Perioden in der Geschichte des Schlosses."
+      },
+      "item5": {
+        "title": "19. Jahrhundert",
+        "text": "Das Schloss wurde Eigentum der Gerberei-Firma von Adolf Schmitt. Das Unternehmen begann allmählich, das Schloss umzubauen und nutzte die Räumlichkeiten hauptsächlich zur Lagerung von Rohleder und Fischfett."
+      },
+      "item6": {
+        "title": "Anfang des 20. Jahrhunderts",
+        "text": "Das Schloss brannte nieder. Das Anwesen wurde von dem Unternehmer Ján Salzberger gemietet, der versuchte, es wiederherzustellen."
+      },
+      "item7": {
+        "title": "Nach dem Zweiten Weltkrieg",
+        "text": "Nach der Verstaatlichung wurde das Schloss als Schule, Musikschule oder Lagerhaus genutzt. Die Kommunisten wollten das Schloss als Gerberei-Museum nutzen."
+      },
+      "item8": {
+        "title": "1988 - 1990",
+        "text": "Die Rekonstruktion begann, die nach zwei Jahren endgültig endete, und das Gebäude wurde wieder verlassen."
+      },
+      "item9": {
+        "title": "2007",
+        "text": "Das Schloss wurde vom lokalen Unternehmer Ján Miškeje gekauft, der mit seiner umfassenden Rekonstruktion begann."
+      },
+      "item10": {
+        "title": "2011 - 2013",
+        "text": "Eine umfassende Rekonstruktion des Schlosses fand statt, die seinen historischen Wert und seine Schönheit wiederherstellte."
+      }
+    }
+  },
+  "tour": {
+    "title": "Virtuelle Tour",
+    "description": "Gehen Sie durch Schloss Bošany und entdecken Sie seine Schönheit und Geschichte durch unsere interaktive virtuelle Tour.",
+    "loading": "Virtuelle Tour wird geladen...",
+    "welcome": {
+      "title": "Willkommen im Schloss Bošany",
+      "text": "Wählen Sie einen Punkt auf der Karte, um die virtuelle Tour zu starten."
+    },
+    "locations": {
+      "entrance": {
+        "title": "Schlosseingang",
+        "text": "Der Haupteingang des Schlosses ist mit einem Renaissance-Portal geschmückt. Die ursprünglichen Türen wurden während der Rekonstruktion ersetzt, aber ihre historischen Elemente wurden bewahrt."
+      },
+      "hall": {
+        "title": "Hauptsaal",
+        "text": "Der Hauptsaal des Schlosses wurde für gesellschaftliche Veranstaltungen und Treffen des Adels genutzt. Die Decke ist mit Stuckornamenten verziert, und in der Mitte des Raumes befindet sich ein großer Kristallleuchter."
+      },
+      "library": {
+        "title": "Bibliothek",
+        "text": "Die Bibliothek enthält wertvolle historische Bücher und Dokumente. Die Holzregale und der Tisch sind Originalmöbel aus dem 18. Jahrhundert."
+      },
+      "bedroom": {
+        "title": "Schlafzimmer",
+        "text": "Das Schlafzimmer ist im Stil des 18. Jahrhunderts mit einem großen Himmelbett und originalen Barockmöbeln eingerichtet."
+      },
+      "garden": {
+        "title": "Garten",
+        "text": "Der Schlossgarten ist im englischen Stil mit vielen Bäumen, Sträuchern und Blumenbeeten gestaltet. In der Mitte befindet sich ein Brunnen aus dem 19. Jahrhundert."
+      }
+    },
+    "navigation": {
+      "prev": "Zurück",
+      "next": "Weiter"
+    }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "description": "Sehen Sie Fotos und Videos, die die Schönheit von Schloss Bošany vor und nach der Rekonstruktion zeigen.",
+    "filters": {
+      "all": "Alle",
+      "exterior": "Außenbereich",
+      "interior": "Innenbereich",
+      "reconstruction": "Rekonstruktion",
+      "historical": "Historisch"
+    },
+    "items": {
+      "exterior1": "Schloss Außenbereich",
+      "exterior2": "Schloss Außenbereich",
+      "interior1": "Schloss Innenbereich",
+      "interior2": "Schloss Innenbereich",
+      "reconstruction1": "Schloss vor der Rekonstruktion",
+      "reconstruction2": "Schloss vor der Rekonstruktion",
+      "historical1": "Historische Ansicht des Schlosses",
+      "historical2": "Historische Ansicht des Schlosses",
+      "exterior": "Schloss Außenbereich",
+      "interior": "Schloss Innenbereich",
+      "reconstruction": "Schloss vor der Rekonstruktion",
+      "historical": "Historische Ansicht des Schlosses"
+    },
+    "captions": {
+      "exterior1": "Blick auf das Schloss von der Hauptstraße",
+      "exterior2": "Blick auf das Schloss vom Park",
+      "interior1": "Hauptsaal des Schlosses",
+      "interior2": "Video aus dem Inneren des Schlosses",
+      "reconstruction1": "Zustand vor der Rekonstruktion",
+      "reconstruction2": "Video - Zustand vor der Rekonstruktion",
+      "historical1": "Historische Ansicht des Schlosses",
+      "historical2": "Video - historische Ansicht des Schlosses"
+    },
+    "navigation": {
+      "prev": "Zurück",
+      "next": "Weiter"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "infoTitle": "Informationen",
+    "address": "Adresse: Schloss Bošany, Bošany, Slowakei",
+    "email": "E-Mail: info@kastiel-bosany.sk",
+    "phone": "Telefon: +421 XXX XXX XXX",
+    "hours": "Öffnungszeiten: Mo-So 10:00 - 18:00 Uhr",
+    "followUs": "Folgen Sie uns"
+  },
+  "footer": {
+    "aboutTitle": "Über das Schloss",
+    "aboutText": "Schloss Bošany ist ein Renaissance-Schloss mit reicher Geschichte, das umfassend rekonstruiert wurde und heute als Kulturdenkmal dient.",
+    "linksTitle": "Schnelllinks",
+    "newsletterTitle": "Newsletter abonnieren",
+    "newsletterText": "Melden Sie sich für unseren Newsletter an und bleiben Sie über aktuelle Ereignisse im Schloss Bošany informiert.",
+    "newsletterPlaceholder": "Ihre E-Mail",
+    "newsletterButton": "Abonnieren",
+    "copyright": "© 2025 Schloss Bošany. Alle Rechte vorbehalten."
+  },
+  "gamification": {
+    "points": "Punkte",
+    "achievements": "Erfolge",
+    "quizTitle": "Schloss-Quiz",
+    "quizStart": "Quiz starten",
+    "quizQuestion": "Frage",
+    "quizNext": "Weiter",
+    "quizSubmit": "Absenden",
+    "quizResult": "Ergebnis",
+    "quizCorrect": "Richtig!",
+    "quizIncorrect": "Falsch!",
+    "quizTryAgain": "Erneut versuchen",
+    "quizScore": "Punktzahl"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "youtube": "YouTube"
+  }
+}

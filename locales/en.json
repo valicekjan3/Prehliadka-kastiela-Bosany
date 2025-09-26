@@ -1,0 +1,188 @@
+{
+  "page": {
+    "title": "Bošany Castle - Virtual Tour",
+    "description": "Virtual tour of Bošany Castle with rich history and multimedia content"
+  },
+  "header": {
+    "title": "Bošany Castle"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "history": "History",
+    "tour": "Virtual Tour",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bošany Castle",
+    "subtitle": "Discover the beauty and history of the Renaissance castle",
+    "tourButton": "Virtual Tour",
+    "galleryButton": "Gallery"
+  },
+  "about": {
+    "title": "About the Castle",
+    "paragraph1": "Bošany Castle is a Renaissance castle located in the center of Bošany village, in the foothills of Tribeč on the left bank of the Nitra River, approximately 6 km northeast of Topoľčany.",
+    "paragraph2": "The castle was built on the foundations of a small fort in the 16th century by the Bossányi family, who separated from the Diviak nobles and permanently settled in Bošany. Throughout its history, the castle underwent many reconstructions and changes of ownership.",
+    "paragraph3": "In 2007, local entrepreneur Ján Miškeje became the new owner of the castle and began its comprehensive reconstruction. Thanks to his efforts, this valuable historical monument was saved for future generations.",
+    "imageAlt": "Bošany Castle"
+  },
+  "history": {
+    "title": "Castle History",
+    "timeline": {
+      "item1": {
+        "title": "15th century",
+        "text": "On the site of today's castle, there was originally a larger log building that was destroyed by fire. It was probably a manor house."
+      },
+      "item2": {
+        "title": "1550",
+        "text": "Due to the threat of Turkish invasions, the nobles rebuilt the tower manor into a large early Renaissance fortified castle."
+      },
+      "item3": {
+        "title": "16th - 17th century",
+        "text": "The architectural development of the castle culminated in Renaissance modifications, when the facade also acquired a typical red and white ornament with a natural pattern."
+      },
+      "item4": {
+        "title": "18th century",
+        "text": "The castle experienced a visit from Maria Theresa, Queen of the Habsburg dynasty. It was one of the most significant periods in the castle's history."
+      },
+      "item5": {
+        "title": "19th century",
+        "text": "The castle became the property of Adolf Schmitt's tannery company. The company gradually began to rebuild the castle and used the premises mainly for storing raw leather and fish fat."
+      },
+      "item6": {
+        "title": "Early 20th century",
+        "text": "The castle burned down. The property was rented by entrepreneur Ján Salzberger, who tried to restore it."
+      },
+      "item7": {
+        "title": "After World War II",
+        "text": "After nationalization, the castle was used as a school, music school, or warehouses. The communists wanted to use the castle as a tannery museum."
+      },
+      "item8": {
+        "title": "1988 - 1990",
+        "text": "Reconstruction began, which definitively ended after two years, and the building was abandoned again."
+      },
+      "item9": {
+        "title": "2007",
+        "text": "The castle was purchased by local entrepreneur Ján Miškeje, who began its comprehensive reconstruction."
+      },
+      "item10": {
+        "title": "2011 - 2013",
+        "text": "A comprehensive reconstruction of the castle took place, which restored its historical value and beauty."
+      }
+    }
+  },
+  "tour": {
+    "title": "Virtual Tour",
+    "description": "Walk through Bošany Castle and discover its beauty and history through our interactive virtual tour.",
+    "loading": "Loading virtual tour...",
+    "welcome": {
+      "title": "Welcome to Bošany Castle",
+      "text": "Select a point of interest on the map to start the virtual tour."
+    },
+    "locations": {
+      "entrance": {
+        "title": "Castle Entrance",
+        "text": "The main entrance to the castle is decorated with a Renaissance portal. The original doors were replaced during reconstruction, but their historical elements were preserved."
+      },
+      "hall": {
+        "title": "Main Hall",
+        "text": "The main hall of the castle was used for social events and meetings of the nobility. The ceiling is decorated with stucco ornaments, and a large crystal chandelier is located in the center of the room."
+      },
+      "library": {
+        "title": "Library",
+        "text": "The library contains valuable historical books and documents. The wooden shelves and table are original pieces of furniture from the 18th century."
+      },
+      "bedroom": {
+        "title": "Bedroom",
+        "text": "The bedroom is furnished in 18th-century style with a large canopy bed and original Baroque furniture."
+      },
+      "garden": {
+        "title": "Garden",
+        "text": "The castle garden is designed in an English style with many trees, shrubs, and flower beds. In the center is a fountain from the 19th century."
+      }
+    },
+    "navigation": {
+      "prev": "Previous",
+      "next": "Next"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "View photos and videos capturing the beauty of Bošany Castle before and after reconstruction.",
+    "filters": {
+      "all": "All",
+      "exterior": "Exterior",
+      "interior": "Interior",
+      "reconstruction": "Reconstruction",
+      "historical": "Historical"
+    },
+    "items": {
+      "exterior1": "Castle exterior",
+      "exterior2": "Castle exterior",
+      "interior1": "Castle interior",
+      "interior2": "Castle interior",
+      "reconstruction1": "Castle before reconstruction",
+      "reconstruction2": "Castle before reconstruction",
+      "historical1": "Historical view of the castle",
+      "historical2": "Historical view of the castle",
+      "exterior": "Castle exterior",
+      "interior": "Castle interior",
+      "reconstruction": "Castle before reconstruction",
+      "historical": "Historical view of the castle"
+    },
+    "captions": {
+      "exterior1": "View of the castle from the main road",
+      "exterior2": "View of the castle from the park",
+      "interior1": "Main hall of the castle",
+      "interior2": "Video from the castle interior",
+      "reconstruction1": "State before reconstruction",
+      "reconstruction2": "Video - state before reconstruction",
+      "historical1": "Historical view of the castle",
+      "historical2": "Video - historical view of the castle"
+    },
+    "navigation": {
+      "prev": "Previous",
+      "next": "Next"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "infoTitle": "Information",
+    "address": "Address: Bošany Castle, Bošany, Slovakia",
+    "email": "Email: info@kastiel-bosany.sk",
+    "phone": "Phone: +421 XXX XXX XXX",
+    "hours": "Opening hours: Mon-Sun 10:00 AM - 6:00 PM",
+    "followUs": "Follow us"
+  },
+  "footer": {
+    "aboutTitle": "About the Castle",
+    "aboutText": "Bošany Castle is a Renaissance castle with a rich history that has undergone comprehensive reconstruction and now serves as a cultural monument.",
+    "linksTitle": "Quick Links",
+    "newsletterTitle": "Subscribe to News",
+    "newsletterText": "Sign up for our newsletter and stay informed about current events at Bošany Castle.",
+    "newsletterPlaceholder": "Your email",
+    "newsletterButton": "Subscribe",
+    "copyright": "© 2025 Bošany Castle. All rights reserved."
+  },
+  "gamification": {
+    "points": "Points",
+    "achievements": "Achievements",
+    "quizTitle": "Castle Quiz",
+    "quizStart": "Start Quiz",
+    "quizQuestion": "Question",
+    "quizNext": "Next",
+    "quizSubmit": "Submit",
+    "quizResult": "Result",
+    "quizCorrect": "Correct!",
+    "quizIncorrect": "Incorrect!",
+    "quizTryAgain": "Try Again",
+    "quizScore": "Score"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "youtube": "YouTube"
+  }
+}

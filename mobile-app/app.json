@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Kaštieľ Bošany",
+    "slug": "kastiel-bosany",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../assets/icon-512x512.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "../assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#8b4513"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "sk.kastiel.bosany",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Aplikácia potrebuje prístup k fotoaparátu pre skenovanie QR kódov a funkcie rozšírenej reality.",
+        "NSLocationWhenInUseUsageDescription": "Aplikácia potrebuje prístup k vašej polohe pre navigáciu v kaštieli.",
+        "NSPhotoLibraryUsageDescription": "Aplikácia potrebuje prístup k vašej galérii pre ukladanie fotografií."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "../assets/icon-512x512.png",
+        "backgroundColor": "#8b4513"
+      },
+      "package": "sk.kastiel.bosany",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "../assets/favicon.ico"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Aplikácia potrebuje prístup k fotoaparátu pre skenovanie QR kódov a funkcie rozšírenej reality."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Aplikácia potrebuje prístup k vašej polohe pre navigáciu v kaštieli."
+        }
+      ],
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "kastiel-bosany"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 30000,
+    "wait": 1000,
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "ignore": [
+      "notice"
+    ],
+    "threshold": 2
+  },
+  "urls": [
+    {
+      "url": "http://localhost:8080/index.html",
+      "screenCapture": "./pa11y-screenshots/index.png"
+    }
+  ]
+}

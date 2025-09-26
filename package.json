@@ -1,0 +1,55 @@
+{
+  "name": "kastiel-bosany",
+  "version": "1.0.0",
+  "description": "Virtuálna prehliadka kaštieľa Bošany s bohatou históriou a multimediálnym obsahom",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'",
+    "deploy": "gh-pages -d .",
+    "prepare": "husky install",
+    "lint": "eslint . && stylelint &quot;**/*.css&quot;",
+    "lint:fix": "eslint --fix . && stylelint --fix &quot;**/*.css&quot;",
+    "format": "prettier --write &quot;**/*.{js,jsx,ts,tsx,css,scss,html,json,md,yml,yaml}&quot;",
+    "validate": "npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valicekjan3/Prehliadka-kastiela-Bosany.git"
+  },
+  "keywords": [
+    "kastiel",
+    "bosany",
+    "virtualna-prehliadka",
+    "historia",
+    "pamiatka",
+    "3d",
+    "animacie",
+    "gamifikacia"
+  ],
+  "author": "Ján Valíček",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valicekjan3/Prehliadka-kastiela-Bosany/issues"
+  },
+  "homepage": "https://github.com/valicekjan3/Prehliadka-kastiela-Bosany#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.0.0",
+    "html-validate": "^7.18.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "pa11y-ci": "^3.0.1",
+    "prettier": "^2.8.8",
+    "serve": "^14.2.1",
+    "stylelint": "^15.7.0",
+    "stylelint-config-recess-order": "^4.2.0",
+    "stylelint-config-standard": "^33.0.0"
+  },
+  "dependencies": {}
+}

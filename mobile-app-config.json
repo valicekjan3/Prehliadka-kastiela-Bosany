@@ -1,0 +1,374 @@
+{
+  "app": {
+    "name": "Kaštieľ Bošany",
+    "description": "Virtuálna prehliadka kaštieľa Bošany s bohatou históriou a multimediálnym obsahom",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "statusBarStyle": "light",
+    "splashScreen": {
+      "backgroundColor": "#8b4513",
+      "image": "assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "icon": "assets/icon-512x512.png"
+  },
+  "webView": {
+    "url": "https://kastiel-bosany.sk",
+    "allowsInlineMediaPlayback": true,
+    "allowsBackForwardNavigationGestures": true,
+    "javaScriptEnabled": true,
+    "domStorageEnabled": true,
+    "geolocationEnabled": true,
+    "userAgent": "KastielBosanyApp"
+  },
+  "permissions": {
+    "camera": {
+      "ios": {
+        "usageDescription": "Aplikácia potrebuje prístup k fotoaparátu pre skenovanie QR kódov v kaštieli."
+      },
+      "android": {
+        "explanation": "Aplikácia potrebuje prístup k fotoaparátu pre skenovanie QR kódov v kaštieli."
+      }
+    },
+    "location": {
+      "ios": {
+        "usageDescription": "Aplikácia potrebuje prístup k vašej polohe pre navigáciu v kaštieli."
+      },
+      "android": {
+        "explanation": "Aplikácia potrebuje prístup k vašej polohe pre navigáciu v kaštieli."
+      }
+    },
+    "notifications": {
+      "ios": {
+        "usageDescription": "Aplikácia vás bude informovať o aktuálnych udalostiach v kaštieli."
+      },
+      "android": {
+        "explanation": "Aplikácia vás bude informovať o aktuálnych udalostiach v kaštieli."
+      }
+    },
+    "storage": {
+      "ios": {
+        "usageDescription": "Aplikácia potrebuje prístup k úložisku pre ukladanie offline obsahu."
+      },
+      "android": {
+        "explanation": "Aplikácia potrebuje prístup k úložisku pre ukladanie offline obsahu."
+      }
+    }
+  },
+  "features": {
+    "offlineMode": true,
+    "pushNotifications": true,
+    "qrCodeScanner": true,
+    "augmentedReality": true,
+    "locationBasedContent": true,
+    "multiLanguage": true,
+    "accessibility": true,
+    "darkMode": true
+  },
+  "languages": [
+    { "code": "sk", "name": "Slovenčina", "default": true },
+    { "code": "cs", "name": "Čeština" },
+    { "code": "en", "name": "English" },
+    { "code": "de", "name": "Deutsch" },
+    { "code": "ja", "name": "日本語" },
+    { "code": "zh", "name": "中文" },
+    { "code": "hi", "name": "हिन्दी" },
+    { "code": "tr", "name": "Türkçe" },
+    { "code": "ru", "name": "Русский" },
+    { "code": "fr", "name": "Français" },
+    { "code": "es", "name": "Español" },
+    { "code": "it", "name": "Italiano" },
+    { "code": "nl", "name": "Nederlands" },
+    { "code": "pt", "name": "Português" },
+    { "code": "ar", "name": "العربية" },
+    { "code": "ko", "name": "한국어" },
+    { "code": "hu", "name": "Magyar" },
+    { "code": "el", "name": "Ελληνικά" },
+    { "code": "no", "name": "Norsk" },
+    { "code": "fi", "name": "Suomi" },
+    { "code": "da", "name": "Dansk" },
+    { "code": "sv", "name": "Svenska" }
+  ],
+  "screens": [
+    {
+      "id": "home",
+      "title": {
+        "sk": "Domov",
+        "en": "Home",
+        "de": "Startseite"
+      },
+      "icon": "home"
+    },
+    {
+      "id": "about",
+      "title": {
+        "sk": "O kaštieli",
+        "en": "About",
+        "de": "Über das Schloss"
+      },
+      "icon": "info-circle"
+    },
+    {
+      "id": "history",
+      "title": {
+        "sk": "História",
+        "en": "History",
+        "de": "Geschichte"
+      },
+      "icon": "book"
+    },
+    {
+      "id": "tour",
+      "title": {
+        "sk": "Virtuálna prehliadka",
+        "en": "Virtual Tour",
+        "de": "Virtuelle Tour"
+      },
+      "icon": "vr-cardboard"
+    },
+    {
+      "id": "gallery",
+      "title": {
+        "sk": "Galéria",
+        "en": "Gallery",
+        "de": "Galerie"
+      },
+      "icon": "images"
+    },
+    {
+      "id": "contact",
+      "title": {
+        "sk": "Kontakt",
+        "en": "Contact",
+        "de": "Kontakt"
+      },
+      "icon": "envelope"
+    },
+    {
+      "id": "events",
+      "title": {
+        "sk": "Udalosti",
+        "en": "Events",
+        "de": "Veranstaltungen"
+      },
+      "icon": "calendar"
+    },
+    {
+      "id": "quiz",
+      "title": {
+        "sk": "Kvíz",
+        "en": "Quiz",
+        "de": "Quiz"
+      },
+      "icon": "question-circle"
+    },
+    {
+      "id": "ar",
+      "title": {
+        "sk": "Rozšírená realita",
+        "en": "Augmented Reality",
+        "de": "Erweiterte Realität"
+      },
+      "icon": "cube"
+    },
+    {
+      "id": "settings",
+      "title": {
+        "sk": "Nastavenia",
+        "en": "Settings",
+        "de": "Einstellungen"
+      },
+      "icon": "cog"
+    }
+  ],
+  "nativeFeatures": {
+    "arModels": [
+      {
+        "id": "castle_exterior",
+        "name": {
+          "sk": "Exteriér kaštieľa",
+          "en": "Castle Exterior",
+          "de": "Schloss Außenbereich"
+        },
+        "description": {
+          "sk": "3D model exteriéru kaštieľa Bošany",
+          "en": "3D model of Bošany Castle exterior",
+          "de": "3D-Modell des Außenbereichs von Schloss Bošany"
+        },
+        "modelFile": "models/castle_exterior.glb",
+        "thumbnail": "img/Snimka_1.PNG",
+        "scale": 0.5
+      },
+      {
+        "id": "castle_interior",
+        "name": {
+          "sk": "Interiér kaštieľa",
+          "en": "Castle Interior",
+          "de": "Schloss Innenbereich"
+        },
+        "description": {
+          "sk": "3D model interiéru kaštieľa Bošany",
+          "en": "3D model of Bošany Castle interior",
+          "de": "3D-Modell des Innenbereichs von Schloss Bošany"
+        },
+        "modelFile": "models/castle_interior.glb",
+        "thumbnail": "img/Snimka_3.PNG",
+        "scale": 0.5
+      }
+    ],
+    "qrCodes": [
+      {
+        "id": "entrance_qr",
+        "targetUrl": "kastiel-bosany://tour/entrance",
+        "description": {
+          "sk": "QR kód pre vstup do kaštieľa",
+          "en": "QR code for castle entrance",
+          "de": "QR-Code für den Schlosseingang"
+        },
+        "points": 10
+      },
+      {
+        "id": "hall_qr",
+        "targetUrl": "kastiel-bosany://tour/hall",
+        "description": {
+          "sk": "QR kód pre hlavnú sálu",
+          "en": "QR code for main hall",
+          "de": "QR-Code für den Hauptsaal"
+        },
+        "points": 10
+      },
+      {
+        "id": "library_qr",
+        "targetUrl": "kastiel-bosany://tour/library",
+        "description": {
+          "sk": "QR kód pre knižnicu",
+          "en": "QR code for library",
+          "de": "QR-Code für die Bibliothek"
+        },
+        "points": 10
+      },
+      {
+        "id": "bedroom_qr",
+        "targetUrl": "kastiel-bosany://tour/bedroom",
+        "description": {
+          "sk": "QR kód pre spálňu",
+          "en": "QR code for bedroom",
+          "de": "QR-Code für das Schlafzimmer"
+        },
+        "points": 10
+      },
+      {
+        "id": "garden_qr",
+        "targetUrl": "kastiel-bosany://tour/garden",
+        "description": {
+          "sk": "QR kód pre záhradu",
+          "en": "QR code for garden",
+          "de": "QR-Code für den Garten"
+        },
+        "points": 10
+      }
+    ],
+    "offlineContent": [
+      "index.html",
+      "css/styles.css",
+      "js/app.js",
+      "js/quiz-data.js",
+      "js/quiz.js",
+      "js/3d-animations.js",
+      "js/gamification.js",
+      "locales/sk.json",
+      "locales/en.json",
+      "locales/de.json",
+      "assets/flags/*",
+      "assets/icon-192x192.png",
+      "assets/icon-512x512.png",
+      "assets/favicon.ico",
+      "img/*",
+      "video/*"
+    ],
+    "notifications": [
+      {
+        "id": "welcome_notification",
+        "title": {
+          "sk": "Vitajte v kaštieli Bošany!",
+          "en": "Welcome to Bošany Castle!",
+          "de": "Willkommen im Schloss Bošany!"
+        },
+        "body": {
+          "sk": "Objavte krásu a históriu renesančného kaštieľa.",
+          "en": "Discover the beauty and history of the Renaissance castle.",
+          "de": "Entdecken Sie die Schönheit und Geschichte des Renaissance-Schlosses."
+        },
+        "trigger": "app_open"
+      },
+      {
+        "id": "tour_reminder",
+        "title": {
+          "sk": "Nezabudnite na virtuálnu prehliadku!",
+          "en": "Don't forget about the virtual tour!",
+          "de": "Vergessen Sie nicht die virtuelle Tour!"
+        },
+        "body": {
+          "sk": "Ešte ste nenavštívili všetky miestnosti kaštieľa.",
+          "en": "You haven't visited all rooms of the castle yet.",
+          "de": "Sie haben noch nicht alle Räume des Schlosses besucht."
+        },
+        "trigger": "time_based",
+        "triggerTime": "3_days"
+      },
+      {
+        "id": "event_notification",
+        "title": {
+          "sk": "Nová udalosť v kaštieli!",
+          "en": "New event at the castle!",
+          "de": "Neue Veranstaltung im Schloss!"
+        },
+        "body": {
+          "sk": "Pozrite si najnovšie udalosti v kaštieli Bošany.",
+          "en": "Check out the latest events at Bošany Castle.",
+          "de": "Sehen Sie sich die neuesten Veranstaltungen im Schloss Bošany an."
+        },
+        "trigger": "server_push"
+      }
+    ]
+  },
+  "analytics": {
+    "enabled": true,
+    "trackScreenViews": true,
+    "trackUserEngagement": true,
+    "trackAppCrashes": true,
+    "trackCustomEvents": [
+      "tour_completed",
+      "quiz_completed",
+      "language_changed",
+      "achievement_unlocked",
+      "ar_model_viewed"
+    ]
+  },
+  "build": {
+    "ios": {
+      "bundleIdentifier": "sk.kastiel.bosany",
+      "buildNumber": "1",
+      "deploymentTarget": "13.0",
+      "appStoreCategory": "Travel",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Aplikácia potrebuje prístup k fotoaparátu pre skenovanie QR kódov a funkcie rozšírenej reality.",
+        "NSLocationWhenInUseUsageDescription": "Aplikácia potrebuje prístup k vašej polohe pre navigáciu v kaštieli.",
+        "NSPhotoLibraryUsageDescription": "Aplikácia potrebuje prístup k vašej galérii pre ukladanie fotografií."
+      }
+    },
+    "android": {
+      "package": "sk.kastiel.bosany",
+      "versionCode": 1,
+      "minSdkVersion": 21,
+      "targetSdkVersion": 30,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}

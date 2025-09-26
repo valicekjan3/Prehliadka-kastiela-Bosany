@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - Kaštieľ Bošany</title>
+  <style>
+    :root {
+      --primary-color: #8b4513;
+      --secondary-color: #d2b48c;
+      --text-color: #333;
+      --light-text-color: #fff;
+      --background-color: #f5f5f5;
+      --header-font: 'Playfair Display', serif, 'Times New Roman', serif;
+      --body-font: 'Roboto', sans-serif, Arial, sans-serif;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: var(--body-font);
+      color: var(--text-color);
+      line-height: 1.6;
+      background-color: var(--background-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .offline-container {
+      max-width: 600px;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      font-family: var(--header-font);
+      color: var(--primary-color);
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    .icon {
+      font-size: 4rem;
+      color: var(--primary-color);
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: var(--primary-color);
+      color: var(--light-text-color);
+      border: none;
+      border-radius: 4px;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+      background-color: var(--secondary-color);
+    }
+  </style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+  <div class="offline-container">
+    <div class="icon">
+      <i class="fas fa-wifi"></i>
+    </div>
+    <h1>Ste offline</h1>
+    <p>Vyzerá to tak, že nemáte pripojenie k internetu. Pre prehliadanie virtuálnej prehliadky kaštieľa Bošany potrebujete internetové pripojenie.</p>
+    <p>Skontrolujte svoje pripojenie a skúste to znova.</p>
+    <a href="/" class="btn">Skúsiť znova</a>
+  </div>
+  
+  <script>
+    // Kontrola pripojenia
+    window.addEventListener('online', () => {
+      window.location.href = '/';
+    });
+    
+    // Nahradenie ikony, ak Font Awesome nie je dostupný
+    document.addEventListener('DOMContentLoaded', () => {
+      const icon = document.querySelector('.icon i');
+      if (getComputedStyle(icon).fontFamily !== 'Font Awesome 6 Free') {
+        icon.textContent = '📶';
+      }
+    });
+  </script>
+</body>
+</html>
