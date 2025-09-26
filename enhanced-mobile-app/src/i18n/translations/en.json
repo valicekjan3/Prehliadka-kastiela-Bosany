@@ -1,0 +1,262 @@
+{
+  "app": {
+    "name": "Bošany Castle",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "offline": "You are offline. Some features may be limited."
+  },
+  "navigation": {
+    "home": "Home",
+    "tour": "Virtual Tour",
+    "history": "History",
+    "gallery": "Gallery",
+    "events": "Events",
+    "quiz": "Quiz",
+    "settings": "Settings",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to Bošany Castle",
+    "subtitle": "Discover the beauty and history of the Renaissance castle",
+    "startTour": "Start Virtual Tour",
+    "exploreHistory": "Explore History",
+    "viewGallery": "View Gallery",
+    "upcomingEvents": "Upcoming Events",
+    "achievements": "Your Achievements",
+    "continueExploring": "Continue Exploring",
+    "featuredExhibit": "Featured Exhibit"
+  },
+  "tour": {
+    "title": "Virtual Tour",
+    "loading": "Loading tour...",
+    "instructions": "Tap on hotspots to explore or swipe to navigate",
+    "startTour": "Start Tour",
+    "continueTour": "Continue Tour",
+    "locations": {
+      "entrance": {
+        "title": "Castle Entrance",
+        "description": "The main entrance to the castle is decorated with a Renaissance portal. The original doors were replaced during reconstruction, but their historical elements were preserved."
+      },
+      "hall": {
+        "title": "Main Hall",
+        "description": "The main hall of the castle was used for social events and meetings of the nobility. The ceiling is decorated with stucco ornaments, and a large crystal chandelier is located in the center of the room."
+      },
+      "library": {
+        "title": "Library",
+        "description": "The library contains valuable historical books and documents. The wooden shelves and table are original pieces of furniture from the 18th century."
+      },
+      "bedroom": {
+        "title": "Bedroom",
+        "description": "The bedroom is furnished in 18th-century style with a large canopy bed and original Baroque furniture."
+      },
+      "garden": {
+        "title": "Garden",
+        "description": "The castle garden is designed in an English style with many trees, shrubs, and flower beds. In the center is a fountain from the 19th century."
+      }
+    },
+    "navigation": {
+      "next": "Next",
+      "previous": "Previous",
+      "exit": "Exit Tour",
+      "map": "Show Map"
+    },
+    "ar": {
+      "instructions": "Point your camera at the QR code to start AR experience",
+      "notSupported": "AR is not supported on your device",
+      "permissionDenied": "Camera permission is required for AR"
+    }
+  },
+  "history": {
+    "title": "Castle History",
+    "timeline": "Historical Timeline",
+    "figures": "Historical Figures",
+    "artifacts": "Historical Artifacts",
+    "stories": "Castle Stories",
+    "timeline_items": {
+      "item1": {
+        "title": "15th century",
+        "text": "On the site of today's castle, there was originally a larger log building that was destroyed by fire. It was probably a manor house."
+      },
+      "item2": {
+        "title": "1550",
+        "text": "Due to the threat of Turkish invasions, the nobles rebuilt the tower manor into a large early Renaissance fortified castle."
+      },
+      "item3": {
+        "title": "16th - 17th century",
+        "text": "The architectural development of the castle culminated in Renaissance modifications, when the facade also acquired a typical red and white ornament with a natural pattern."
+      },
+      "item4": {
+        "title": "18th century",
+        "text": "The castle experienced a visit from Maria Theresa, Queen of the Habsburg dynasty. It was one of the most significant periods in the castle's history."
+      },
+      "item5": {
+        "title": "19th century",
+        "text": "The castle became the property of Adolf Schmitt's tannery company. The company gradually began to rebuild the castle and used the premises mainly for storing raw leather and fish fat."
+      },
+      "item6": {
+        "title": "Early 20th century",
+        "text": "The castle burned down. The property was rented by entrepreneur Ján Salzberger, who tried to restore it."
+      },
+      "item7": {
+        "title": "After World War II",
+        "text": "After nationalization, the castle was used as a school, music school, or warehouses. The communists wanted to use the castle as a tannery museum."
+      },
+      "item8": {
+        "title": "1988 - 1990",
+        "text": "Reconstruction began, which definitively ended after two years, and the building was abandoned again."
+      },
+      "item9": {
+        "title": "2007",
+        "text": "The castle was purchased by local entrepreneur Ján Miškeje, who began its comprehensive reconstruction."
+      },
+      "item10": {
+        "title": "2011 - 2013",
+        "text": "A comprehensive reconstruction of the castle took place, which restored its historical value and beauty."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "photos": "Photos",
+    "videos": "Videos",
+    "3dModels": "3D Models",
+    "filters": {
+      "all": "All",
+      "exterior": "Exterior",
+      "interior": "Interior",
+      "reconstruction": "Reconstruction",
+      "historical": "Historical"
+    },
+    "viewAll": "View All",
+    "noItems": "No items to display",
+    "loadMore": "Load More",
+    "shareImage": "Share Image"
+  },
+  "events": {
+    "title": "Events",
+    "upcoming": "Upcoming Events",
+    "past": "Past Events",
+    "register": "Register",
+    "moreInfo": "More Information",
+    "calendar": "Calendar View",
+    "list": "List View",
+    "noEvents": "No events scheduled",
+    "registerSuccess": "Registration successful",
+    "reminder": "Set Reminder",
+    "reminderSet": "Reminder set"
+  },
+  "quiz": {
+    "title": "Castle Quiz",
+    "start": "Start Quiz",
+    "question": "Question",
+    "of": "of",
+    "next": "Next",
+    "submit": "Submit",
+    "correct": "Correct!",
+    "incorrect": "Incorrect!",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "score": "Your Score",
+    "tryAgain": "Try Again",
+    "shareScore": "Share Score",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    }
+  },
+  "achievements": {
+    "title": "Achievements",
+    "points": "Points",
+    "level": "Level",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "progress": "Progress",
+    "newAchievement": "New Achievement Unlocked!",
+    "categories": {
+      "explorer": "Explorer",
+      "historian": "Historian",
+      "photographer": "Photographer",
+      "quizMaster": "Quiz Master"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "darkMode": "Dark Mode",
+    "soundEffects": "Sound Effects",
+    "dataUsage": "Data Usage",
+    "accessibility": {
+      "title": "Accessibility",
+      "largeText": "Large Text",
+      "highContrast": "High Contrast",
+      "reduceMotion": "Reduce Motion"
+    },
+    "about": {
+      "title": "About",
+      "version": "Version",
+      "developers": "Developers",
+      "acknowledgements": "Acknowledgements",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile",
+      "signIn": "Sign In",
+      "signOut": "Sign Out",
+      "deleteAccount": "Delete Account"
+    },
+    "resetProgress": "Reset Progress",
+    "resetConfirm": "Are you sure? This will reset all your progress."
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "openingHours": "Opening Hours",
+    "followUs": "Follow Us",
+    "sendMessage": "Send Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "message": "Message",
+    "send": "Send",
+    "messageSent": "Message Sent",
+    "messageError": "Error Sending Message"
+  },
+  "ar": {
+    "scanQR": "Scan QR Code",
+    "pointCamera": "Point your camera at a QR code",
+    "loading": "Loading AR Experience",
+    "notSupported": "AR is not supported on your device",
+    "permissionDenied": "Camera permission is required"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "more": "More",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "continue": "Continue",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "download": "Download",
+    "open": "Open",
+    "close": "Close"
+  }
+}

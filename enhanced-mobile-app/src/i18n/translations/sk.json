@@ -1,0 +1,262 @@
+{
+  "app": {
+    "name": "Kaštieľ Bošany",
+    "loading": "Načítavam...",
+    "error": "Vyskytla sa chyba",
+    "retry": "Skúsiť znova",
+    "offline": "Ste offline. Niektoré funkcie môžu byť obmedzené."
+  },
+  "navigation": {
+    "home": "Domov",
+    "tour": "Virtuálna prehliadka",
+    "history": "História",
+    "gallery": "Galéria",
+    "events": "Podujatia",
+    "quiz": "Kvíz",
+    "settings": "Nastavenia",
+    "about": "O kaštieli",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "welcome": "Vitajte v Kaštieli Bošany",
+    "subtitle": "Objavte krásu a históriu renesančného kaštieľa",
+    "startTour": "Začať virtuálnu prehliadku",
+    "exploreHistory": "Preskúmať históriu",
+    "viewGallery": "Zobraziť galériu",
+    "upcomingEvents": "Nadchádzajúce podujatia",
+    "achievements": "Vaše úspechy",
+    "continueExploring": "Pokračovať v objavovaní",
+    "featuredExhibit": "Vybraná expozícia"
+  },
+  "tour": {
+    "title": "Virtuálna prehliadka",
+    "loading": "Načítavam prehliadku...",
+    "instructions": "Kliknite na body záujmu alebo potiahnite prstom pre navigáciu",
+    "startTour": "Začať prehliadku",
+    "continueTour": "Pokračovať v prehliadke",
+    "locations": {
+      "entrance": {
+        "title": "Vstup do kaštieľa",
+        "description": "Hlavný vstup do kaštieľa je zdobený renesančným portálom. Pôvodné dvere boli počas rekonštrukcie nahradené, ale ich historické prvky boli zachované."
+      },
+      "hall": {
+        "title": "Hlavná sála",
+        "description": "Hlavná sála kaštieľa slúžila na spoločenské udalosti a stretnutia šľachty. Strop je zdobený štukovými ornamentmi a v strede miestnosti sa nachádza veľký krištáľový luster."
+      },
+      "library": {
+        "title": "Knižnica",
+        "description": "Knižnica obsahuje cenné historické knihy a dokumenty. Drevené police a stôl sú pôvodné kusy nábytku z 18. storočia."
+      },
+      "bedroom": {
+        "title": "Spálňa",
+        "description": "Spálňa je zariadená v štýle 18. storočia s veľkou posteľou s baldachýnom a pôvodným barokovým nábytkom."
+      },
+      "garden": {
+        "title": "Záhrada",
+        "description": "Záhrada kaštieľa je navrhnutá v anglickom štýle s mnohými stromami, kríkmi a kvetinovými záhonmi. V strede sa nachádza fontána z 19. storočia."
+      }
+    },
+    "navigation": {
+      "next": "Ďalej",
+      "previous": "Späť",
+      "exit": "Ukončiť prehliadku",
+      "map": "Zobraziť mapu"
+    },
+    "ar": {
+      "instructions": "Namierte fotoaparát na QR kód pre spustenie AR zážitku",
+      "notSupported": "AR nie je podporované na vašom zariadení",
+      "permissionDenied": "Pre AR je potrebné povolenie fotoaparátu"
+    }
+  },
+  "history": {
+    "title": "História kaštieľa",
+    "timeline": "Historická časová os",
+    "figures": "Historické osobnosti",
+    "artifacts": "Historické artefakty",
+    "stories": "Príbehy kaštieľa",
+    "timeline_items": {
+      "item1": {
+        "title": "15. storočie",
+        "text": "Na mieste dnešného kaštieľa stála pôvodne väčšia zrubová stavba, ktorá bola zničená požiarom. Pravdepodobne išlo o panské sídlo."
+      },
+      "item2": {
+        "title": "1550",
+        "text": "Kvôli hrozbe tureckých vpádov šľachtici prestavali vežový dvorec na veľký ranorenesančný opevnený kaštieľ."
+      },
+      "item3": {
+        "title": "16. - 17. storočie",
+        "text": "Stavebný vývoj kaštieľa vyvrcholil renesančnými úpravami, keď fasáda získala aj typický červeno-biely ornament s prírodným vzorom."
+      },
+      "item4": {
+        "title": "18. storočie",
+        "text": "Kaštieľ zažil návštevu Márie Terézie, kráľovnej habsburskej dynastie. Bolo to jedno z najvýznamnejších období v histórii kaštieľa."
+      },
+      "item5": {
+        "title": "19. storočie",
+        "text": "Kaštieľ sa stal majetkom garbiarskej firmy Adolfa Schmitta. Firma postupne začala kaštieľ prestavovať a priestory využívala najmä na skladovanie surovej kože a rybieho tuku."
+      },
+      "item6": {
+        "title": "Začiatok 20. storočia",
+        "text": "Kaštieľ vyhorel. Majetok si prenajal podnikateľ Ján Salzberger, ktorý sa ho snažil obnoviť."
+      },
+      "item7": {
+        "title": "Po druhej svetovej vojne",
+        "text": "Po znárodnení slúžil kaštieľ ako škola, hudobná škola či sklady. Komunisti chceli kaštieľ využiť ako múzeum garbiarstva."
+      },
+      "item8": {
+        "title": "1988 - 1990",
+        "text": "Začala sa rekonštrukcia, ktorá po dvoch rokoch definitívne skončila a budova bola opäť opustená."
+      },
+      "item9": {
+        "title": "2007",
+        "text": "Kaštieľ kúpil miestny podnikateľ Ján Miškeje, ktorý začal jeho komplexnú rekonštrukciu."
+      },
+      "item10": {
+        "title": "2011 - 2013",
+        "text": "Prebehla komplexná rekonštrukcia kaštieľa, ktorá mu vrátila jeho historickú hodnotu a krásu."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galéria",
+    "photos": "Fotografie",
+    "videos": "Videá",
+    "3dModels": "3D modely",
+    "filters": {
+      "all": "Všetko",
+      "exterior": "Exteriér",
+      "interior": "Interiér",
+      "reconstruction": "Rekonštrukcia",
+      "historical": "Historické"
+    },
+    "viewAll": "Zobraziť všetko",
+    "noItems": "Žiadne položky na zobrazenie",
+    "loadMore": "Načítať viac",
+    "shareImage": "Zdieľať obrázok"
+  },
+  "events": {
+    "title": "Podujatia",
+    "upcoming": "Nadchádzajúce podujatia",
+    "past": "Minulé podujatia",
+    "register": "Registrovať sa",
+    "moreInfo": "Viac informácií",
+    "calendar": "Kalendárne zobrazenie",
+    "list": "Zoznamové zobrazenie",
+    "noEvents": "Žiadne naplánované podujatia",
+    "registerSuccess": "Registrácia úspešná",
+    "reminder": "Nastaviť pripomienku",
+    "reminderSet": "Pripomienka nastavená"
+  },
+  "quiz": {
+    "title": "Kvíz o kaštieli",
+    "start": "Začať kvíz",
+    "question": "Otázka",
+    "of": "z",
+    "next": "Ďalej",
+    "submit": "Odoslať",
+    "correct": "Správne!",
+    "incorrect": "Nesprávne!",
+    "yourAnswer": "Vaša odpoveď",
+    "correctAnswer": "Správna odpoveď",
+    "score": "Vaše skóre",
+    "tryAgain": "Skúsiť znova",
+    "shareScore": "Zdieľať skóre",
+    "difficulty": {
+      "easy": "Ľahká",
+      "medium": "Stredná",
+      "hard": "Ťažká"
+    }
+  },
+  "achievements": {
+    "title": "Úspechy",
+    "points": "Body",
+    "level": "Úroveň",
+    "unlocked": "Odomknuté",
+    "locked": "Zamknuté",
+    "progress": "Pokrok",
+    "newAchievement": "Nový úspech odomknutý!",
+    "categories": {
+      "explorer": "Prieskumník",
+      "historian": "Historik",
+      "photographer": "Fotograf",
+      "quizMaster": "Majster kvízu"
+    }
+  },
+  "settings": {
+    "title": "Nastavenia",
+    "language": "Jazyk",
+    "notifications": "Notifikácie",
+    "darkMode": "Tmavý režim",
+    "soundEffects": "Zvukové efekty",
+    "dataUsage": "Využitie dát",
+    "accessibility": {
+      "title": "Prístupnosť",
+      "largeText": "Veľký text",
+      "highContrast": "Vysoký kontrast",
+      "reduceMotion": "Znížiť pohyb"
+    },
+    "about": {
+      "title": "O aplikácii",
+      "version": "Verzia",
+      "developers": "Vývojári",
+      "acknowledgements": "Poďakovania",
+      "privacyPolicy": "Zásady ochrany osobných údajov",
+      "termsOfService": "Podmienky služby"
+    },
+    "account": {
+      "title": "Účet",
+      "profile": "Profil",
+      "signIn": "Prihlásiť sa",
+      "signOut": "Odhlásiť sa",
+      "deleteAccount": "Vymazať účet"
+    },
+    "resetProgress": "Resetovať pokrok",
+    "resetConfirm": "Ste si istí? Toto zresetuje všetok váš pokrok."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "address": "Adresa",
+    "phone": "Telefón",
+    "email": "Email",
+    "website": "Webová stránka",
+    "openingHours": "Otváracie hodiny",
+    "followUs": "Sledujte nás",
+    "sendMessage": "Poslať správu",
+    "yourName": "Vaše meno",
+    "yourEmail": "Váš email",
+    "message": "Správa",
+    "send": "Odoslať",
+    "messageSent": "Správa odoslaná",
+    "messageError": "Chyba pri odosielaní správy"
+  },
+  "ar": {
+    "scanQR": "Skenovať QR kód",
+    "pointCamera": "Namierte fotoaparát na QR kód",
+    "loading": "Načítavam AR zážitok",
+    "notSupported": "AR nie je podporované na vašom zariadení",
+    "permissionDenied": "Pre AR je potrebné povolenie fotoaparátu"
+  },
+  "common": {
+    "loading": "Načítavam...",
+    "error": "Chyba",
+    "retry": "Skúsiť znova",
+    "cancel": "Zrušiť",
+    "confirm": "Potvrdiť",
+    "save": "Uložiť",
+    "delete": "Vymazať",
+    "edit": "Upraviť",
+    "share": "Zdieľať",
+    "more": "Viac",
+    "back": "Späť",
+    "next": "Ďalej",
+    "finish": "Dokončiť",
+    "continue": "Pokračovať",
+    "search": "Hľadať",
+    "filter": "Filtrovať",
+    "sort": "Zoradiť",
+    "view": "Zobraziť",
+    "download": "Stiahnuť",
+    "open": "Otvoriť",
+    "close": "Zatvoriť"
+  }
+}
