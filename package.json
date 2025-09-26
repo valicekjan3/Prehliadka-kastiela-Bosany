@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/valicekjan3/Prehliadka-kastiela-Bosany#readme",
   "devDependencies": {
-    "@commitlint/cli": "^17.6.5",
+    "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^17.6.5",
     "eslint": "^8.42.0",
     "eslint-plugin-react": "^7.32.2",
