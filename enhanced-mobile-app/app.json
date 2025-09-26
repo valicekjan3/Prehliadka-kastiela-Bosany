@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Kaštieľ Bošany",
+    "slug": "kastiel-bosany-mobile",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#8B2131"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kastiel.bosany",
+      "buildNumber": "2.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan QR codes in the castle.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your location for navigation within the castle.",
+        "NSPhotoLibraryUsageDescription": "This app allows you to share photos from your gallery.",
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#8B2131"
+      },
+      "package": "com.kastiel.bosany",
+      "versionCode": 2,
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "VIBRATE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-camera",
+      "expo-location",
+      "expo-notifications",
+      "expo-file-system",
+      "expo-gl"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "kastiel-bosany"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/kastiel-bosany"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
