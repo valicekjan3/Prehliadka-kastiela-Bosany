@@ -39,7 +39,7 @@
     "@commitlint/config-conventional": "^17.6.5",
     "eslint": "^8.42.0",
     "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "gh-pages": "^6.0.0",
     "html-validate": "^7.18.0",
     "husky": "^8.0.3",
