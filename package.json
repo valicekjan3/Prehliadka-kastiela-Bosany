@@ -48,7 +48,7 @@
     "prettier": "^2.8.8",
     "serve": "^14.2.1",
     "stylelint": "^15.7.0",
-    "stylelint-config-recess-order": "^4.2.0",
+    "stylelint-config-recess-order": "^7.3.0",
     "stylelint-config-standard": "^33.0.0"
   },
   "dependencies": {}
